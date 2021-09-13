@@ -5,7 +5,7 @@ In order to detect the breast masses, we used the deep learning approach and esp
 ## 1. Dataset
 My team and me worked on the **CBIS-DDSM** dataset which had **3103 images** divided into **2458 images for training** and **645 images for test** composed of mammography images and the corresponding masks.
 
-<img src="demo/DDSM.png" width=50%>
+<img src="images/DDSM.png" width=50%>
 
 
 
@@ -19,7 +19,7 @@ We performed data preprocessing on the images of the dataset to improve the qual
 * Change to square
 * Merging masks
 
-<img src="demo/prétraitement.PNG" width=70%>
+<img src="images/prétraitement.PNG" width=70%>
 
 
 
@@ -42,5 +42,5 @@ As for evaluation metrics, we used mainly the **IOU** (Intersection Over Union) 
 
 ### Results : 
 
-<img src="demo/result.PNG" width=50%>
+<img src="images/result.PNG" width=50%>
 
