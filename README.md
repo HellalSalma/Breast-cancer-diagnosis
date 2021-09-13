@@ -23,14 +23,14 @@ At first, we used the classic and UNet segmentation model to our dataset. Then, 
 ## 3. Evaluation and results
 As for evaluation metrics, we used mainly the **IOU** (Intersection Over Union) and the **dice coeficient** to measure the performance of our three models and do the comparison between them : 
 
-| :---: | UNet | UNet MobileNetV2 | UNet VGG19 |
+|                  | UNet   | UNet MobileNetV2 | UNet VGG19 |
 
-| dice coefficient | 0.4689 | 0.4851 | 0.4970 |
+| dice coefficient | 0.4689 | 0.4851           | 0.4970     |
 
-| IOU | 0.3228 | 0.3343 | 0.3447 |
+| IOU              | 0.3228 | 0.3343           | 0.3447     |
 
-| Loss | 0.5377 | 0.5195 | 0.5077 |
+| Loss             | 0.5377 | 0.5195           | 0.5077     |
 
-| Recall | 0.3271 | 0.4015 | 0.3960 |
+| Recall           | 0.3271 | 0.4015           | 0.3960     |
 
-| Precision | 0.7122 | 0.5797 | 0.6271 |
+| Precision        | 0.7122 | 0.5797           | 0.6271     |
