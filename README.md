@@ -25,6 +25,8 @@ As for evaluation metrics, we used mainly the **IOU** (Intersection Over Union) 
 
 |                  | UNet   | UNet MobileNetV2 | UNet VGG19 |
 
+| ---------------- | ------ | ---------------- | ---------- |
+
 | dice coefficient | 0.4689 | 0.4851           | 0.4970     |
 
 | IOU              | 0.3228 | 0.3343           | 0.3447     |
