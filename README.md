@@ -4,6 +4,11 @@ In order to detect the breast masses, we used the deep learning approach and esp
 
 ## 1. Dataset
 My team and me worked on the **CBIS-DDSM** dataset which had **3103 images** divided into **2458 images for training** and **645 images for test** composed of mammography images and the corresponding masks.
+
+<img src="images/DDSM.png" width=50%>
+
+
+
 We performed data preprocessing on the images of the dataset to improve the quality and get better results by :
 
 * Normalisation
@@ -13,6 +18,10 @@ We performed data preprocessing on the images of the dataset to improve the qual
 * Enhancement
 * Change to square
 * Merging masks
+
+<img src="images/prétraitement.PNG" width=70%>
+
+
 
 ## 2. Implementation
 When it comes to the model of image segmentation, we used **UNet** pretrained model with a pretrained **VGG19** as backbone.
@@ -30,3 +39,7 @@ As for evaluation metrics, we used mainly the **IOU** (Intersection Over Union) 
 | Loss | 0.5377 | 0.5195 | **0.5077** |
 | Recall | 0.3271 | 0.4015 | **0.3960** |
 | Precision| 0.7122 | 0.5797 | **0.6271** |
+
+Results : 
+
+<img src="images/result.PNG" width=50%>
