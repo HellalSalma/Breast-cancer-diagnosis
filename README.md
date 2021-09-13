@@ -44,7 +44,3 @@ As for evaluation metrics, we used mainly the **IOU** (Intersection Over Union) 
 
 <img src="demo/result.PNG" width=50%>
 
-### Demo : 
-
-[![Watch the video]](demo/demo_breast_cancer.mp4)
-
